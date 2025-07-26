@@ -1,24 +1,50 @@
-Here’s a polished README tailored for **`react-native-ml-kit`** (by a7medev) focusing on Text Recognition—designed for a fresh project or documentation. It includes setup, usage, permissions, and troubleshooting tips based on the repository and npm info. Let me know if you’d like CI badges, GitHub project link insertion, or example images/commands.
+# Welcome to your Expo app 👋
 
----
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-# React Native ML Kit – Text Recognition
+## Get started
 
-_On‑Device OCR powered by Google ML Kit for React Native_
-Supported on **Android & iOS** via Google ML Kit | ✅ already wraps native modules ([a7medev repository](https://github.com/a7medev/react-native-ml-kit)) ([GitHub][1])
+1. Install dependencies
 
----
+   ```bash
+   npm install
+   ```
 
-## 📦 Supported Modules
+2. Start the app
 
-| Feature                                                                                   | Android | iOS |
-| ----------------------------------------------------------------------------------------- | :-----: | :-: |
-| Text Recognition                                                                          |   ✅    | ✅  |
-| Image Labeling                                                                            |   ✅    | ✅  |
-| Face Detection                                                                            |   ✅    | ✅  |
-| Barcode Scanning                                                                          |   ✅    | ✅  |
-| Language Identification                                                                   |   ✅    | ✅  |
-| Translate Text                                                                            |   ✅    | ❌  |
-| Other ML Kit APIs are not currently supported in this library. ([GitHub][1], [GitHub][2]) |         |     |
+   ```bash
+   npx expo start
+   ```
 
----
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
